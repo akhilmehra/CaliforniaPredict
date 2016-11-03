@@ -1,0 +1,184 @@
+
+svg {
+    background-color: #ccccff;
+}
+
+path {
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+.land.active {
+    fill: #00FF00 !important;
+}
+
+.land {
+  fill: #bbb;
+}
+
+.border {
+  pointer-events: none;
+  fill: none;
+  stroke: #fff;
+}
+
+.border--district {
+  stroke-width: .5px;
+}
+
+.border--state {
+  stroke-width: 1.5px;
+}
+
+#modelOptions{
+    background-color: #FFFBD0;
+    width:130px;
+    height:30px;
+}
+
+#dataOptions{
+    background-color: #FFFBD0;
+    width:190px;
+    height:30px;
+}
+
+body{
+     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+     background-color: #99aacc;
+     text-align: center;
+     font-size: x-large;
+}
+
+#delegates{
+    position:absolute;
+    top:242px;
+}    
+
+#vote{
+    position:absolute;
+    top:221px;
+}
+
+div.blocksBackground {
+    padding:20px;
+    background-color: #ccccff;
+}
+
+div.delegateBox.active {
+    background-color: #00FF00 !important;
+}
+
+div.delegateBox {
+    display: inline-block;
+    width: 20px;    
+    margin: 5px 1px;
+    background-color: #bbbbbb;
+    vertical-align : bottom;
+}
+
+
+div.stateBox {
+    display: inline-block;
+    margin-right: 2px;
+    background-color: #bbbbbb;
+    vertical-align : middle;
+    width : 5px;
+    height : 15px;
+}
+
+#blocks{
+    padding:0px;
+    width:350px;
+    display:inline-block;
+    vertical-align:middle;
+    float:left;
+    clear:left;
+}
+
+div#stateBlocks{
+    line-height : 75%;
+    padding:0px;
+    width:350px;
+    display:inline-block;
+    vertical-align:middle;
+    float:left;
+}
+
+div.stateBox.active {
+    background-color: #00FF00 !important;
+}
+
+div.topbar{
+    width:100%;
+    background-color : blue;
+}
+
+div.topbar.active {
+    background-color: #00FF00 !important;
+}
+
+#pollsters{
+    border-radius:25px;
+    padding:20px;
+    background-color: #FFFBD0;
+    font-size:14px;
+    height:100px;
+    width:350px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#pollsLeft{
+    text-align:left;
+    float:left;
+}
+#pollsRight{
+    float:right;
+}
+
+#viz{
+    background-color:#bbbbbb;
+    width : 840px;
+    display:inline-block;
+}
+
+
+#caMap{
+    display:inline-block;
+    position:relative;
+    vertical-align:middle;
+    height:700px;
+}
+
+#california{
+    width : 400px;
+    height : 700px;
+    display : inline-block;
+}
+
+#scaleobj{
+    position:absolute;
+    top:0px;
+    right:0px;
+    height:175px;
+}
+
+#minValue{
+    position:absolute;
+    right:35px;
+    bottom:0px;
+}
+
+#maxValue{
+    position:absolute;
+    right:35px;
+}
+
+#scale{
+    width:35px;
+    height:175px;
+    background-color:white;
+    position:absolute;
+    top:0px;
+    right:0px;
+}

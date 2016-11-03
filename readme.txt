@@ -1,0 +1,1 @@
+I averaged out the four other models, age, gender, and race/ethnicity, resulting in Stewart's combined model. I then took those percentages, multiplied them by 100, and stored them in the other text file. 
