@@ -1,1 +1,3 @@
-I averaged out the four other models, age, gender, and race/ethnicity, resulting in Stewart's combined model. I then took those percentages, multiplied them by 100, and stored them in the other text file. 
+Predicts the results of the 2016 California Democratic Primary (Hillary vs Bernie). 
+Utilized Huffington Post Pollster API.
+Developed through Node.js, HTML5, CSS, and D3.js.
